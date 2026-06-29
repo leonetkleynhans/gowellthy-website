@@ -1,0 +1,332 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pricing — GoWellthy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav scrolled" id="nav">
+    <a href="index.html" class="logo">
+      <img src="Gowellthy Logo New New.png" alt="GoWellthy" class="logo-img logo-img-dark" />
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="treatments.html">Treatments & Pricing</a>
+      <a href="bookings.html">Book</a>
+      <a href="payment.html" class="active">Payment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="bookings.html" class="btn-nav">Book a Session</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Transparent Pricing</p>
+      <h1>Simple, <em>Honest</em> Pricing</h1>
+      <p>Invest in your wellbeing. Every package is designed to give you the best value and the most consistent results.</p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing-section container">
+    <!-- SESSION INFO -->
+    <div style="background:var(--cream-light);border-radius:var(--radius-lg);padding:28px 36px;margin-bottom:40px;display:flex;gap:48px;align-items:center;flex-wrap:wrap;justify-content:center;max-width:800px;margin-left:auto;margin-right:auto;margin-bottom:40px;">
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span style="font-size:1.4rem;">⏱</span>
+        <div><strong style="display:block;font-size:0.88rem;">15–20 min treatment</strong><small style="color:var(--mid);font-size:0.78rem;">Book a 30-minute slot</small></div>
+      </div>
+      <div style="width:1px;height:36px;background:var(--light-border);"></div>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span style="font-size:1.4rem;">📅</span>
+        <div><strong style="display:block;font-size:0.88rem;">2–5 sessions per week</strong><small style="color:var(--mid);font-size:0.78rem;">Recommended frequency</small></div>
+      </div>
+      <div style="width:1px;height:36px;background:var(--light-border);"></div>
+      <div style="display:flex;align-items:center;gap:12px;">
+        <span style="font-size:1.4rem;">✦</span>
+        <div><strong style="display:block;font-size:0.88rem;">Consistency is key</strong><small style="color:var(--mid);font-size:0.78rem;">Long-term benefits vary per individual</small></div>
+      </div>
+    </div>
+
+    <div class="pricing-grid-4">
+
+      <!-- 1 TREATMENT -->
+      <div class="pricing-card">
+        <div class="pricing-card-head">
+          <h3>1 Treatment</h3>
+          <p>Try it out — your first GoWellthy experience.</p>
+          <div class="price-row">
+            <span class="price-currency">R</span>
+            <span class="price-amount">450</span>
+            <span class="price-per">/ session</span>
+          </div>
+        </div>
+        <div class="pricing-card-body">
+          <ul class="pricing-features">
+            <li><span class="feat-check">✦</span> 15–20 min full-body session</li>
+            <li><span class="feat-check">✦</span> Red + near-infrared light therapy</li>
+            <li><span class="feat-check">✦</span> Pre-session health screening</li>
+            <li><span class="feat-check">✦</span> No commitment required</li>
+          </ul>
+          <a href="bookings.html?plan=single" class="btn-primary" style="width:100%;justify-content:center;">Book — R450</a>
+        </div>
+      </div>
+
+      <!-- 6 TREATMENTS -->
+      <div class="pricing-card">
+        <div class="pricing-card-head">
+          <h3>6 Treatments</h3>
+          <p>Where real, measurable results begin.</p>
+          <div class="price-row">
+            <span class="price-currency">R</span>
+            <span class="price-amount">2,200</span>
+            <span class="price-per">/ pack</span>
+          </div>
+        </div>
+        <div class="pricing-card-body">
+          <ul class="pricing-features">
+            <li><span class="feat-check">✦</span> 6 × 15–20 min sessions</li>
+            <li><span class="feat-check">✦</span> Personalised wellness check-in</li>
+            <li><span class="feat-check">✦</span> Progress tracking support</li>
+            <li><span class="feat-check">✦</span> Flexible scheduling</li>
+          </ul>
+          <span class="savings-tag" style="margin-bottom:16px;display:inline-block;">R366 per session</span>
+          <a href="bookings.html?plan=pack6" class="btn-primary" style="width:100%;justify-content:center;">Book — R2,200</a>
+        </div>
+      </div>
+
+      <!-- 10 TREATMENTS (FEATURED) -->
+      <div class="pricing-card featured">
+        <div class="pricing-card-head">
+          <span class="pricing-badge">Best Value</span>
+          <h3>10 Treatments</h3>
+          <p>Our most popular package for lasting wellness.</p>
+          <div class="price-row">
+            <span class="price-currency">R</span>
+            <span class="price-amount">3,800</span>
+            <span class="price-per">/ pack</span>
+          </div>
+        </div>
+        <div class="pricing-card-body">
+          <ul class="pricing-features">
+            <li><span class="feat-check">✦</span> 10 × 15–20 min sessions</li>
+            <li><span class="feat-check">✦</span> Full wellness consultation</li>
+            <li><span class="feat-check">✦</span> Before & after progress notes</li>
+            <li><span class="feat-check">✦</span> Priority booking access</li>
+            <li><span class="feat-check">✦</span> Flexible scheduling</li>
+          </ul>
+          <span class="savings-tag" style="margin-bottom:16px;display:inline-block;">R380 per session — Save R700</span>
+          <a href="bookings.html?plan=pack10" class="btn-primary" style="width:100%;justify-content:center;">Book — R3,800</a>
+        </div>
+      </div>
+
+      <!-- 12 TREATMENTS -->
+      <div class="pricing-card">
+        <div class="pricing-card-head">
+          <h3>12 Treatments</h3>
+          <p>The complete course for deep, lasting transformation.</p>
+          <div class="price-row">
+            <span class="price-currency">R</span>
+            <span class="price-amount">4,500</span>
+            <span class="price-per">/ pack</span>
+          </div>
+        </div>
+        <div class="pricing-card-body">
+          <ul class="pricing-features">
+            <li><span class="feat-check">✦</span> 12 × 15–20 min sessions</li>
+            <li><span class="feat-check">✦</span> Full wellness consultation</li>
+            <li><span class="feat-check">✦</span> Before & after progress notes</li>
+            <li><span class="feat-check">✦</span> VIP priority scheduling</li>
+            <li><span class="feat-check">✦</span> Complimentary wellness review</li>
+          </ul>
+          <span class="savings-tag" style="margin-bottom:16px;display:inline-block;">R375 per session — Save R900</span>
+          <a href="bookings.html?plan=pack12" class="btn-primary" style="width:100%;justify-content:center;">Book — R4,500</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PAYMENT FORM -->
+  <section class="payment-section container">
+    <div class="section-header">
+      <span class="label">Secure Checkout</span>
+      <h2>Complete Your <em>Purchase</em></h2>
+    </div>
+
+    <div class="payment-layout">
+
+      <!-- SUMMARY -->
+      <div>
+        <div class="payment-summary">
+          <h3>Order Summary</h3>
+
+          <div class="order-item" id="selectedPlan">
+            <div>
+              <div class="item-name">10 Treatments</div>
+              <div class="item-desc">10 × 15–20 min sessions</div>
+            </div>
+            <div class="item-price">R3,800</div>
+          </div>
+
+          <div class="order-item">
+            <div>
+              <div class="item-name" style="color:var(--mid);font-size:0.85rem;">Savings</div>
+            </div>
+            <div class="item-price" style="color:#4caf7d;font-size:0.85rem;" id="savings">−R700</div>
+          </div>
+
+          <div class="order-total">
+            <span>Total (incl. VAT)</span>
+            <strong id="totalAmount">R3,800</strong>
+          </div>
+        </div>
+
+        <!-- PRICING SWITCHER -->
+        <div style="margin-top:24px;">
+          <p style="font-size:0.75rem;font-weight:500;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);margin-bottom:12px;">Change Plan</p>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <label style="display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--cream-light);border-radius:var(--radius-md);cursor:pointer;font-size:0.88rem;border:1.5px solid transparent;" class="plan-option">
+              <input type="radio" name="plan" value="single" style="accent-color:var(--teal);" onchange="updatePlan(this)"> 1 Treatment — R450
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--cream-light);border-radius:var(--radius-md);cursor:pointer;font-size:0.88rem;border:1.5px solid transparent;" class="plan-option">
+              <input type="radio" name="plan" value="pack6" style="accent-color:var(--teal);" onchange="updatePlan(this)"> 6 Treatments — R2,200
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--cream-light);border-radius:var(--radius-md);cursor:pointer;font-size:0.88rem;border:1.5px solid var(--teal);" class="plan-option">
+              <input type="radio" name="plan" value="pack10" checked style="accent-color:var(--teal);" onchange="updatePlan(this)"> 10 Treatments — R3,800 <span style="margin-left:auto;font-size:0.7rem;background:var(--terracotta);color:#fff;padding:2px 8px;border-radius:20px;">Best Value</span>
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;padding:14px 16px;background:var(--cream-light);border-radius:var(--radius-md);cursor:pointer;font-size:0.88rem;border:1.5px solid transparent;" class="plan-option">
+              <input type="radio" name="plan" value="pack12" style="accent-color:var(--teal);" onchange="updatePlan(this)"> 12 Treatments — R4,500
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAYMENT FORM -->
+      <div class="payment-form-wrap">
+        <h3>Payment Details</h3>
+        <p class="sub-text">Your payment information is encrypted and secure.</p>
+
+        <div class="payment-methods">
+          <div class="pay-method active" onclick="selectMethod(this)">
+            <div style="font-size:1.1rem;margin-bottom:4px;">💳</div>
+            Card
+          </div>
+          <div class="pay-method" onclick="selectMethod(this)">
+            <div style="font-size:1.1rem;margin-bottom:4px;">🏦</div>
+            EFT
+          </div>
+          <div class="pay-method" onclick="selectMethod(this)">
+            <div style="font-size:1.1rem;margin-bottom:4px;">📱</div>
+            SnapScan
+          </div>
+        </div>
+
+        <form id="paymentForm" onsubmit="handlePayment(event)">
+          <div class="form-group">
+            <label>Cardholder Name</label>
+            <input type="text" placeholder="Sarah Mitchell" required />
+          </div>
+
+          <div class="form-group">
+            <label>Card Number</label>
+            <div class="card-field">•••• •••• •••• ••••</div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label>Expiry Date</label>
+              <input type="text" placeholder="MM / YY" maxlength="7" required />
+            </div>
+            <div class="form-group">
+              <label>CVV</label>
+              <input type="text" placeholder="•••" maxlength="4" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Email for Receipt</label>
+            <input type="email" placeholder="you@email.com" required />
+          </div>
+
+          <button type="submit" class="btn-primary form-submit" id="payBtn">
+            Pay Securely — <span id="payAmount">R3,800</span>
+          </button>
+
+          <div class="secure-note">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+            256-bit SSL encryption · PCI DSS compliant · Your card details are never stored
+          </div>
+        </form>
+
+        <!-- SUCCESS -->
+        <div id="paySuccess" style="display:none;text-align:center;padding:40px 0;">
+          <div style="width:72px;height:72px;background:rgba(76,175,125,0.1);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:1.8rem;">✓</div>
+          <h3 style="font-family:var(--font-display);font-size:1.6rem;font-weight:400;margin-bottom:12px;color:var(--dark);">Payment Successful!</h3>
+          <p style="color:var(--mid);font-size:0.9rem;line-height:1.7;margin-bottom:28px;">Your sessions are confirmed. A receipt and booking details have been sent to your email. We look forward to seeing you!</p>
+          <a href="bookings.html" class="btn-primary" style="display:inline-flex;">Book Your First Session</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUARANTEE -->
+  <section style="background:var(--cream-light);padding:60px 0;">
+    <div class="container" style="text-align:center;">
+      <span class="label">Our Promise</span>
+      <h2>Your Wellbeing, Guaranteed</h2>
+      <p style="color:var(--mid);max-width:560px;margin:16px auto 0;line-height:1.75;font-size:0.95rem;">
+        If you're not satisfied after your first session, we'll refund it — no questions asked. We're that confident in what the experience delivers.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="Gowellthy Logo New New.png" alt="GoWellthy" class="logo-img footer-logo-img" /></a>
+        <p>Where Innovation Meets Wellbeing.<br />Innovative Wellness. Empowered Living.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="treatments.html">Treatments & Pricing</a>
+        <a href="bookings.html">Book a Session</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Wellness</h4>
+        <a href="treatments.html#">Bed</a>
+        <a href="treatments.html#benefits">Benefits</a>
+        <a href="treatments.html#science">The Science</a>
+        <a href="treatments.html#faq">FAQs</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Connect</h4>
+        <p>Somerset West<br />Helderberg Region, South Africa</p>
+        <a href="mailto:hello@gowellthy.co.za">hello@gowellthy.co.za</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 GoWellthy. All rights reserved.</p>
+      <p>Feel Better. Live Better. Thrive.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+

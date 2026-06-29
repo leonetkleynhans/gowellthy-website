@@ -1,0 +1,265 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Session — GoWellthy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav scrolled" id="nav">
+    <a href="index.html" class="logo">
+      <img src="Gowellthy Logo New New.png" alt="GoWellthy" class="logo-img logo-img-dark" />
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="treatments.html">Treatments & Pricing</a>
+      <a href="bookings.html" class="active">Book</a>
+      <a href="payment.html">Payment</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="bookings.html" class="btn-nav">Book a Session</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Reserve Your Spot</p>
+      <h1>Book a <em>Session</em></h1>
+      <p>Choose your preferred time and treatment. We'll confirm your booking within 24 hours.</p>
+    </div>
+  </section>
+
+  <!-- BOOKING SECTION -->
+  <section class="booking-section">
+    <div class="container">
+      <div class="booking-layout">
+
+        <!-- LEFT: INFO -->
+        <div class="booking-info">
+          <h3>What to Expect</h3>
+          <p>
+            Your GoWellthy session is designed to be effortless and restorative from start to finish. Arrive a few minutes early — we'll welcome you, complete a brief health screening, and guide you through your first session with care.
+          </p>
+
+          <ul class="booking-details-list">
+            <li>
+              <div class="detail-icon">⏱</div>
+              <div class="detail-text">
+                <strong>Session Duration</strong>
+                <span>15–20 min treatment · Please book a 30-minute slot</span>
+              </div>
+            </li>
+            <li>
+              <div class="detail-icon">📍</div>
+              <div class="detail-text">
+                <strong>Location</strong>
+                <span>Somerset West, Helderberg Region, South Africa</span>
+              </div>
+            </li>
+            <li>
+              <div class="detail-icon">🕐</div>
+              <div class="detail-text">
+                <strong>Operating Hours</strong>
+                <span>Mon – Fri: 8:00 – 18:00 · Sat: 9:00 – 14:00</span>
+              </div>
+            </li>
+            <li>
+              <div class="detail-icon">✦</div>
+              <div class="detail-text">
+                <strong>First Visit</strong>
+                <span>Arrive 10 minutes early for a brief consultation and orientation</span>
+              </div>
+            </li>
+            <li>
+              <div class="detail-icon">👚</div>
+              <div class="detail-text">
+                <strong>What to Wear</strong>
+                <span>Minimal clothing for maximum light absorption. Towels and privacy provided.</span>
+              </div>
+            </li>
+            <li>
+              <div class="detail-icon">💳</div>
+              <div class="detail-text">
+                <strong>Payment</strong>
+                <span>Pay securely online after booking, or settle on arrival</span>
+              </div>
+            </li>
+          </ul>
+
+          <!-- AVAILABILITY VISUAL -->
+          <div style="background:var(--cream-light);border-radius:var(--radius-lg);padding:28px;margin-bottom:32px;">
+            <p style="font-size:0.75rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--teal);margin-bottom:16px;">This Week's Availability</p>
+            <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:8px;">
+              <div style="text-align:center;padding:12px 4px;background:#fff;border-radius:var(--radius-md);border:1px solid var(--light-border);">
+                <div style="font-size:0.65rem;color:var(--mid);text-transform:uppercase;letter-spacing:0.08em;">Mon</div>
+                <div style="font-size:1.1rem;font-family:var(--font-display);margin:4px 0;">23</div>
+                <div style="width:6px;height:6px;background:#4caf7d;border-radius:50%;margin:0 auto;" title="Available"></div>
+              </div>
+              <div style="text-align:center;padding:12px 4px;background:#fff;border-radius:var(--radius-md);border:1px solid var(--light-border);">
+                <div style="font-size:0.65rem;color:var(--mid);text-transform:uppercase;letter-spacing:0.08em;">Tue</div>
+                <div style="font-size:1.1rem;font-family:var(--font-display);margin:4px 0;">24</div>
+                <div style="width:6px;height:6px;background:#4caf7d;border-radius:50%;margin:0 auto;"></div>
+              </div>
+              <div style="text-align:center;padding:12px 4px;background:var(--dark);border-radius:var(--radius-md);border:1px solid var(--dark);">
+                <div style="font-size:0.65rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.08em;">Wed</div>
+                <div style="font-size:1.1rem;font-family:var(--font-display);margin:4px 0;color:#fff;">25</div>
+                <div style="width:6px;height:6px;background:var(--terracotta);border-radius:50%;margin:0 auto;"></div>
+              </div>
+              <div style="text-align:center;padding:12px 4px;background:#fff;border-radius:var(--radius-md);border:1px solid var(--light-border);">
+                <div style="font-size:0.65rem;color:var(--mid);text-transform:uppercase;letter-spacing:0.08em;">Thu</div>
+                <div style="font-size:1.1rem;font-family:var(--font-display);margin:4px 0;">26</div>
+                <div style="width:6px;height:6px;background:#4caf7d;border-radius:50%;margin:0 auto;"></div>
+              </div>
+              <div style="text-align:center;padding:12px 4px;background:#fff;border-radius:var(--radius-md);border:1px solid var(--light-border);">
+                <div style="font-size:0.65rem;color:var(--mid);text-transform:uppercase;letter-spacing:0.08em;">Fri</div>
+                <div style="font-size:1.1rem;font-family:var(--font-display);margin:4px 0;">27</div>
+                <div style="width:6px;height:6px;background:var(--sage);border-radius:50%;margin:0 auto;" title="Limited"></div>
+              </div>
+            </div>
+            <div style="display:flex;gap:16px;margin-top:16px;">
+              <span style="display:flex;align-items:center;gap:6px;font-size:0.72rem;color:var(--mid);"><span style="width:6px;height:6px;background:#4caf7d;border-radius:50%;display:inline-block;"></span>Available</span>
+              <span style="display:flex;align-items:center;gap:6px;font-size:0.72rem;color:var(--mid);"><span style="width:6px;height:6px;background:var(--sage);border-radius:50%;display:inline-block;"></span>Limited</span>
+              <span style="display:flex;align-items:center;gap:6px;font-size:0.72rem;color:var(--mid);"><span style="width:6px;height:6px;background:var(--terracotta);border-radius:50%;display:inline-block;"></span>Full</span>
+            </div>
+          </div>
+
+          <a href="treatments.html" class="link-arrow">View all treatments →</a>
+        </div>
+
+        <!-- RIGHT: FORM -->
+        <div class="booking-form-wrap">
+          <h3>Request Your Booking</h3>
+
+          <form id="bookingForm" onsubmit="handleBooking(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" placeholder="Sarah" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Mitchell" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="you@email.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="+27 82 000 0000" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="treatment">Treatment Package</label>
+              <select id="treatment" required>
+                <option value="" disabled selected>Select a package</option>
+                <option value="single">1 Treatment — R450</option>
+                <option value="pack6">6 Treatments — R2,200 (R366 per session)</option>
+                <option value="pack10">10 Treatments — R3,800 (R380 per session)</option>
+                <option value="pack12">12 Treatments — R4,500 (R375 per session)</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <select id="time" required>
+                  <option value="" disabled selected>Select a time</option>
+                  <option>08:00</option>
+                  <option>09:00</option>
+                  <option>10:00</option>
+                  <option>11:00</option>
+                  <option>12:00</option>
+                  <option>13:00</option>
+                  <option>14:00</option>
+                  <option>15:00</option>
+                  <option>16:00</option>
+                  <option>17:00</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="goals">Health Goals / Notes <span style="font-size:0.7rem;opacity:0.6;text-transform:none;letter-spacing:0;">(optional)</span></label>
+              <textarea id="goals" placeholder="e.g. recovering from a sports injury, looking to improve sleep, skin rejuvenation..."></textarea>
+            </div>
+
+            <div class="form-group" style="flex-direction:row;align-items:flex-start;gap:10px;margin-bottom:24px;">
+              <input type="checkbox" id="firstVisit" style="margin-top:3px;flex-shrink:0;accent-color:var(--teal);" />
+              <label for="firstVisit" style="text-transform:none;letter-spacing:0;font-size:0.85rem;color:var(--mid);cursor:pointer;">
+                This is my first visit to GoWellthy
+              </label>
+            </div>
+
+            <button type="submit" class="btn-primary form-submit">Confirm Booking Request</button>
+            <p class="form-note">We'll send a confirmation to your email within 24 hours. No payment required upfront.</p>
+          </form>
+
+          <!-- SUCCESS STATE (hidden by default) -->
+          <div id="bookingSuccess" style="display:none;text-align:center;padding:40px 0;">
+            <div style="width:64px;height:64px;background:var(--cream-light);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 24px;font-size:1.5rem;">✦</div>
+            <h3 style="font-family:var(--font-display);font-size:1.6rem;font-weight:400;margin-bottom:12px;color:var(--dark);">Booking Received!</h3>
+            <p style="color:var(--mid);font-size:0.9rem;line-height:1.7;margin-bottom:28px;">Thank you! We've received your booking request and will confirm your session via email within 24 hours.</p>
+            <a href="index.html" class="btn-primary" style="display:inline-flex;">Back to Home</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><img src="Gowellthy Logo New New.png" alt="GoWellthy" class="logo-img footer-logo-img" /></a>
+        <p>Where Innovation Meets Wellbeing.<br />Innovative Wellness. Empowered Living.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="treatments.html">Treatments & Pricing</a>
+        <a href="bookings.html">Book a Session</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Wellness</h4>
+        <a href="treatments.html#">Bed</a>
+        <a href="treatments.html#benefits">Benefits</a>
+        <a href="treatments.html#science">The Science</a>
+        <a href="treatments.html#faq">FAQs</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Connect</h4>
+        <p>Somerset West<br />Helderberg Region, South Africa</p>
+        <a href="mailto:hello@gowellthy.co.za">hello@gowellthy.co.za</a>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>© 2025 GoWellthy. All rights reserved.</p>
+      <p>Feel Better. Live Better. Thrive.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
+
