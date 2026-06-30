@@ -2119,3 +2119,96 @@ h1 em, h2 em {
 
   .add-ons-grid { grid-template-columns: 1fr 1fr; }
 }
+
+/* ============================
+   MOBILE STYLES (max 480px)
+   ============================ */
+@media (max-width: 480px) {
+  /* Container */
+  .container { padding: 0 16px; }
+
+  /* Logo — much smaller on mobile */
+  .logo-img { height: 100px !important; margin-top: -20px !important; }
+  .logo-img-dark { height: 90px !important; margin-top: -40px !important; }
+  .footer-logo-img { height: 60px !important; margin-top: 0 !important; }
+
+  /* Nav */
+  .nav { padding: 16px; }
+  .nav.scrolled { padding: 10px 16px; }
+
+  /* Hero */
+  .hero { min-height: 100svh; }
+  .hero-content { padding: 0 16px; margin-top: 80px; }
+  .hero-sub { font-size: 0.95rem; }
+  .hero-cta { flex-direction: column; gap: 12px; }
+  .hero-cta .btn-primary,
+  .hero-cta .btn-ghost { width: 100%; text-align: center; }
+
+  /* Sections */
+  .belief-strip { padding: 32px 16px; }
+  .belief-text { font-size: 1rem; }
+
+  .intro { gap: 32px; padding: 48px 0; }
+  .intro-text { order: 1; }
+  .intro-img-wrap { order: 2; aspect-ratio: 4/3; height: auto; }
+
+  /* Product feature */
+  .product-feature { flex-direction: column; }
+  .product-content { padding: 32px 16px; }
+  .product-img-side { min-height: 260px; }
+
+  /* Wavelengths */
+  .product-wavelengths { gap: 8px; flex-wrap: wrap; }
+
+  /* Audience */
+  .audience-split { gap: 32px; }
+  .audience-split-img { height: 280px; }
+  .audience-grid { gap: 16px; }
+  .audience-item { gap: 12px; }
+
+  /* Testimonials */
+  .testimonials-grid { gap: 16px; }
+
+  /* About page */
+  .about-hero { min-height: 50vh; }
+  .about-intro { gap: 32px; padding: 48px 0; }
+  .about-img-single { height: 300px; }
+  .promise-inner { gap: 32px; }
+  .promise-img { height: 300px; }
+
+  /* Pillars */
+  .pillars-grid { gap: 20px; }
+  .pillar { padding: 24px 20px; }
+
+  /* Location cards */
+  .location-cards { grid-template-columns: 1fr !important; gap: 16px; }
+
+  /* Treatments */
+  .treatment-grid { gap: 32px; }
+  .treatment-img-side { height: 300px; }
+  .science-boxes { gap: 16px; }
+
+  /* Payment */
+  .payment-layout { gap: 32px; }
+  .session-info-strip { flex-direction: column; gap: 24px; max-width: 100%; }
+  .payment-methods { grid-template-columns: 1fr; }
+
+  /* Contact */
+  .contact-layout { gap: 32px; }
+
+  /* Footer */
+  .footer-inner { gap: 24px; }
+  .footer-bottom { font-size: 0.78rem; }
+
+  /* CTA banner */
+  .cta-banner { padding: 60px 0; }
+  .cta-actions { flex-direction: column; gap: 12px; align-items: center; }
+  .cta-actions .btn-primary,
+  .cta-actions .btn-ghost-dark { width: 100%; text-align: center; }
+
+  /* Purpose strip */
+  .purpose-strip { padding: 48px 0; }
+
+  /* Booking */
+  .booking-layout { gap: 32px; }
+}
