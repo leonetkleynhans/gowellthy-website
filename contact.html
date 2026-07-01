@@ -136,32 +136,32 @@
           <h3>Send Us a Message</h3>
           <p style="color:var(--mid);font-size:0.9rem;margin-bottom:32px;line-height:1.7;">Fill in the form below and we'll get back to you within one business day. For booking enquiries, you can also head straight to our <a href="bookings.html" style="color:var(--teal);border-bottom:1px solid currentColor;">bookings page</a>.</p>
 
-          <form id="contactForm" onsubmit="handleContact(event)">
+          <form id="contactForm" action="https://formspree.io/f/xjgqawor" method="POST">
             <div class="form-row">
               <div class="form-group">
                 <label for="cFirstName">First Name</label>
-                <input type="text" id="cFirstName" placeholder="Sarah" required />
+                <input type="text" id="cFirstName" name="first_name" placeholder="Sarah" required />
               </div>
               <div class="form-group">
                 <label for="cLastName">Last Name</label>
-                <input type="text" id="cLastName" placeholder="Mitchell" required />
+                <input type="text" id="cLastName" name="last_name" placeholder="Mitchell" required />
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group">
                 <label for="cEmail">Email Address</label>
-                <input type="email" id="cEmail" placeholder="you@email.com" required />
+                <input type="email" id="cEmail" name="email" placeholder="you@email.com" required />
               </div>
               <div class="form-group">
                 <label for="cPhone">Phone / WhatsApp</label>
-                <input type="tel" id="cPhone" placeholder="+27 82 000 0000" />
+                <input type="tel" id="cPhone" name="phone" placeholder="+27 82 000 0000" />
               </div>
             </div>
 
             <div class="form-group">
               <label for="cSubject">Subject</label>
-              <select id="cSubject" required>
+              <select id="cSubject" name="subject" required>
                 <option value="" disabled selected>What can we help you with?</option>
                 <option>General enquiry</option>
                 <option>Treatment information</option>
@@ -176,11 +176,11 @@
 
             <div class="form-group">
               <label for="cMessage">Message</label>
-              <textarea id="cMessage" rows="5" placeholder="Tell us a little about what you're looking for, or ask us anything..." required></textarea>
+              <textarea id="cMessage" name="message" rows="5" placeholder="Tell us a little about what you're looking for, or ask us anything..." required></textarea>
             </div>
 
             <div class="form-group" style="flex-direction:row;align-items:flex-start;gap:10px;margin-bottom:28px;">
-              <input type="checkbox" id="cNewsletter" style="margin-top:3px;flex-shrink:0;accent-color:var(--teal);" />
+              <input type="checkbox" id="cNewsletter" name="newsletter" style="margin-top:3px;flex-shrink:0;accent-color:var(--teal);" />
               <label for="cNewsletter" style="text-transform:none;letter-spacing:0;font-size:0.85rem;color:var(--mid);cursor:pointer;">
                 Subscribe to our wellness newsletter — tips, offers, and updates from GoWellthy
               </label>
