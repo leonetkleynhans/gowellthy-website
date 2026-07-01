@@ -2097,8 +2097,7 @@ h1 em, h2 em {
   .product-content { padding: 48px 32px; }
 
   .intro-img-wrap { height: 360px; }
-  .intro-badge { bottom: -10px; left: 16px; padding: 16px 20px; }
-  .badge-num { font-size: 1.5rem; }
+  .intro-badge { display: none; }
 
   .testimonials-grid { grid-template-columns: 1fr; }
   .testimonial.featured { transform: none; }
