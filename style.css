@@ -2119,6 +2119,32 @@ h1 em, h2 em {
   .add-ons-grid { grid-template-columns: 1fr 1fr; }
 }
 
+/* Payment info strip */
+.payment-info-strip {
+  background: var(--cream-light);
+  border-radius: var(--radius-lg);
+  padding: 28px 36px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.payment-info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.payment-info-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--light-border);
+}
+
 /* Session info grid */
 .session-info-grid {
   display: grid;
@@ -2209,6 +2235,8 @@ h1 em, h2 em {
   /* Payment */
   .payment-layout { gap: 32px; }
   .session-info-strip { flex-direction: column; gap: 24px; max-width: 100%; }
+  .payment-info-strip { flex-direction: column; gap: 20px; padding: 24px; }
+  .payment-info-divider { width: 100%; height: 1px; }
   .session-info-grid { grid-template-columns: 1fr !important; }
   .session-info-item { border-right: none !important; border-bottom: 1px solid var(--light-border); }
   .session-info-item:last-child { border-bottom: none; }
