@@ -2119,6 +2119,20 @@ h1 em, h2 em {
   .add-ons-grid { grid-template-columns: 1fr 1fr; }
 }
 
+/* Session info grid */
+.session-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border: 1px solid var(--light-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: #fff;
+}
+.session-info-item {
+  padding: 32px 36px;
+}
+
 /* ============================
    MOBILE STYLES (max 480px)
    ============================ */
@@ -2195,6 +2209,9 @@ h1 em, h2 em {
   /* Payment */
   .payment-layout { gap: 32px; }
   .session-info-strip { flex-direction: column; gap: 24px; max-width: 100%; }
+  .session-info-grid { grid-template-columns: 1fr !important; }
+  .session-info-item { border-right: none !important; border-bottom: 1px solid var(--light-border); }
+  .session-info-item:last-child { border-bottom: none; }
   .payment-methods { grid-template-columns: 1fr; }
 
   /* Contact */
