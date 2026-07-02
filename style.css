@@ -2232,5 +2232,5 @@ h1 em, h2 em {
 
   /* Booking */
   .booking-layout { gap: 32px; }
-  .booking-form-wrap { margin-top: 16px; }
+  .booking-form-wrap { margin-top: 40px; }
 }
