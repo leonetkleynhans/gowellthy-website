@@ -2154,7 +2154,7 @@ h1 em, h2 em {
   .intro-text { order: 1; }
   .about-intro { padding-left: 32px !important; padding-right: 32px !important; }
   .about-intro-text { width: 100%; }
-  .intro-img-wrap { order: 2; aspect-ratio: 4/3; height: auto; }
+  .intro-img-wrap { order: 2; aspect-ratio: 16/9; height: auto; }
 
   /* Product feature */
   .product-feature { flex-direction: column; }
